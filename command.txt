@@ -1,0 +1,46 @@
+********add same code *********
+git chechout -f
+
+********all comment details*********
+git log
+
+********details of commit*********
+git log -p -1
+
+********commited file remove file only staging area*********
+git rm --cached file name
+
+********commited file is permanent remove file*********
+git rm file.name
+
+_________________________________________________________________________________________________________________
+********diffrent working file (tree) to staging area*********
+git diff
+
+********diffrent working file (tree) to last commited*********
+git diff --staged
+
+********file add and commit sms*********
+git diff --staged "write commit"
+
+_________________________________________________________________________________________________________________
+
+********create ignore file this file work any path add in file that is ignore*********
+touch .gitignore
+
+_____________________________________________________________________________________________________
+NOTE : master branch is main branch finale project add master branch
+********create branch ********
+git branch branchName
+
+********branch show********
+git branch 
+
+******** switched branch to another branch ********
+git checkout branchName
+
+******** merge another branch in master branch ********
+git merge branchName
+
+******** create and movie branch ********
+git checkout -b branchName
