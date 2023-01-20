@@ -33,6 +33,9 @@ NOTE : master branch is main branch finale project add master branch
 ********create branch ********
 git branch branchName
 
+*********** reName branch **************
+git branch -m old_name new_name
+
 ********branch show********
 git branch 
 
@@ -44,3 +47,39 @@ git merge branchName
 
 ******** create and movie branch ********
 git checkout -b branchName
+
+
+__________________________________________________________________________________________________
+
+close issues
+
+commit fixes (issues code)
+
+_____________________________________________________________________________________________
+NOTE this command save data stash box
+save change code stash box
+stash command
+************** save change code *************
+git stash
+
+************** save change code and pass user define massage *************
+git stash -m ""
+
+************** list of stash file *************
+git stash list
+
+************** last change restore in project *************
+git stash apply
+
+************** any changes apply in project *************
+git stash apply (stash@{1})
+
+
+************** first stash index delete *************
+git stash pop
+
+************** any index wise stash deleted  *************
+git stash drop (stash@{1})
+
+************** all stash deleted  *************
+git stash clear
