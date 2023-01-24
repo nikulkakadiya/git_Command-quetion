@@ -23,6 +23,9 @@ git diff --staged
 ********file add and commit sms*********
 git diff --staged "write commit"
 
+********create new file changes file*********
+git diff >> sample.patch
+
 _________________________________________________________________________________________________________________
 
 ********create ignore file this file work any path add in file that is ignore*********
@@ -38,6 +41,9 @@ git branch -m old_name new_name
 
 ********branch show********
 git branch 
+
+********delete branch********
+git branch -d abc
 
 ******** switched branch to another branch ********
 git checkout branchName
@@ -83,3 +89,24 @@ git stash drop (stash@{1})
 
 ************** all stash deleted  *************
 git stash clear
+
+_________________________________________________________________________________
+
+***************** reset ******************** ****
+git reset --hard HEAD~1
+git reset --mixed HEAD~1
+git reset --soft HEAD~1
+
+___________________________________________________________________________________________________________
+
+******************** remote directory changes add local directory but not add local directory changes ******************
+NOTE :- this command only add changis local repo
+
+git fetch -v
+
+update changes then following command
+
+git pull -v
+
+
+https://drive.google.com/drive/folders/1yX5o6gu7sWBSoTmgtma2D3ZPcJrLillr
